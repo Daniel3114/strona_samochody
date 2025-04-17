@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        const order = orders[0]; // Load the first order for simplicity
+        const order = orders[0];
 
         for (let key in order) {
             let element = form.querySelector(`[name="${key}"]`);
