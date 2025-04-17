@@ -1,0 +1,22 @@
+#cont{
+    text-align:center;
+}
+.images{
+    width: 30%;
+    height: 20%;
+    float: left;
+    margin: 1%;
+    border-radius: 5px 5px ;
+
+}
+
+#image{
+    margin-left: 4%;
+}
+@media screen and (max-width: 768px)
+{
+    .images{
+        width: 93%;
+        height: 93%;
+    }
+}
